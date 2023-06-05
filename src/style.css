@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+
+.container{
+  min-width: 100vw;
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;  
+}
+
+
+.input input{
+ width:18rem;
+ padding: 0.4rem;
+ margin-top:0.2rem;
+ border-radius: 5px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.btn  button{
+  text-align: center;
+  padding: 0.4rem;
+  width: 5rem;
+  background-color: #CBDCED;
+  font-size: 800;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.table{
+  display: block;
+  justify-content: center;
+
+ 
+}
+
+table, th, td {
+  margin-top: 2rem;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th, td{
+  padding: 0.3rem;
+}
